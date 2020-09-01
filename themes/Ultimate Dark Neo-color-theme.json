@@ -367,6 +367,13 @@
 			}
 		},
 		{
+			"name": "Storage type",
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "storage.modifier",
 			"settings": {
 				"fontStyle": "italic"
@@ -429,7 +436,22 @@
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#c594c5"
+				"foreground": "#c594c5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name.id.css",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name.class.css",
+			"settings": {
+				"fontStyle": ""
 			}
 		},
 		{
@@ -450,8 +472,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#6699cc",
-				"fontStyle": "italic"
+				"foreground": "#6699cc"
 			}
 		},
 		{
