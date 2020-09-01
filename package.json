@@ -1,0 +1,28 @@
+{
+    "name": "ultimate-dark-neo",
+    "displayName": "Ultimate Dark Neo",
+    "publisher": "rubjo",
+    "description": "Beautiful bluish dark theme. Mostly Mariana Nord with some tweaked colour and italic styling.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rubjo/ultimate-dark-neo-vs-code"
+    },
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ultimate Dark Neo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ultimate Dark Neo-color-theme.json"
+            }
+        ]
+    }
+}
